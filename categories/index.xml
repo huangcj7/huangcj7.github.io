@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Categories - 分类 - 长江7号的小窝🛖</title>
+    <link>http://huangcj7.github.io/categories/</link>
+    <description>Categories - 分类 - 长江7号的小窝🛖</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 03 Aug 2023 23:31:47 &#43;0800</lastBuildDate><atom:link href="http://huangcj7.github.io/categories/" rel="self" type="application/rss+xml" /><item>
+  <title>backstage</title>
+  <link>http://huangcj7.github.io/categories/backstage/</link>
+  <pubDate>Thu, 03 Aug 2023 23:31:47 &#43;0800</pubDate>
+  <author>作者</author>
+  <guid>http://huangcj7.github.io/categories/backstage/</guid>
+  <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>

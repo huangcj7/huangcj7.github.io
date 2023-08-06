@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta name="robots" content="noodp" />
+    <title>Backstage 安装说明 - 长江7号的小窝🛖</title><meta name="author" content="">
+<meta name="author-link" content="">
+<meta name="description" content="一个97程序员的个人博客，分享一些有趣的事，记录个人技术成长" /><meta name="keywords" content='backstage' /><meta itemprop="name" content="Backstage 安装说明">
+<meta itemprop="description" content=""><meta itemprop="datePublished" content="2023-08-03T23:31:47+08:00" />
+<meta itemprop="dateModified" content="2023-08-03T23:31:47+08:00" />
+<meta itemprop="wordCount" content="1263"><meta itemprop="image" content="http://huangcj7.github.io/logo.png"/>
+<meta itemprop="keywords" content="backstage," /><meta property="og:title" content="Backstage 安装说明" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://huangcj7.github.io/posts/first_post/" /><meta property="og:image" content="http://huangcj7.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-08-03T23:31:47+08:00" />
+<meta property="article:modified_time" content="2023-08-03T23:31:47+08:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://huangcj7.github.io/logo.png"/>
+
+<meta name="twitter:title" content="Backstage 安装说明"/>
+<meta name="twitter:description" content=""/>
+<meta name="application-name" content="FixIt">
+<meta name="apple-mobile-web-app-title" content="FixIt"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://huangcj7.github.io/posts/first_post/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Backstage 安装说明",
+    "inLanguage": "zh-CN",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "http:\/\/huangcj7.github.io\/posts\/first_post\/"
+    },"genre": "posts","keywords": "backstage","wordcount":  1263 ,
+    "url": "http:\/\/huangcj7.github.io\/posts\/first_post\/","datePublished": "2023-08-03T23:31:47+08:00","dateModified": "2023-08-03T23:31:47+08:00","publisher": {
+      "@type": "Organization",
+      "name": ""},"author": {
+        "@type": "Person",
+        "name": "huangcj"
+      },"description": ""
+  }
+  </script></head>
+  <body data-header-desktop="sticky" data-header-mobile="auto"><script>(window.localStorage?.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('data-theme', 'dark');</script><div class="wrapper" data-page-style="normal"><header class="desktop animate__faster" id="header-desktop">
+  <div class="header-wrapper">
+    <div class="header-title">
+      <a href="/" title="长江7号的小窝🛖"><img loading="lazy" src="/fixit.min.svg" srcset="/fixit.min.svg, /fixit.min.svg 1.5x, /fixit.min.svg 2x" sizes="auto" data-title="长江7号的小窝🛖" data-alt="长江7号的小窝🛖" class="logo" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/><span class="header-title-text">长江7号的小窝🛸</span></a><span class="header-subtitle"></span></div>
+    <nav>
+      <ul class="menu"><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/posts/"
+                
+                
+              >文章</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/categories/"
+                
+                
+              >分类</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/tags/"
+                
+                
+              >标签</a></li><li class="menu-item delimiter"></li><li class="menu-item search" id="search-desktop">
+            <input type="text" placeholder="搜索文章标题或内容……" id="search-input-desktop">
+            <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+              <i class="fa-solid fa-search fa-fw" aria-hidden="true"></i>
+            </a>
+            <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+              <i class="fa-solid fa-times-circle fa-fw" aria-hidden="true"></i>
+            </a>
+            <span class="search-button search-loading" id="search-loading-desktop">
+              <i class="fa-solid fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+            </span>
+          </li><li class="menu-item theme-switch" title="切换主题">
+          <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+        </li></ul>
+    </nav>
+  </div>
+</header><header class="mobile animate__faster" id="header-mobile">
+  <div class="header-container">
+    <div class="header-wrapper">
+      <div class="header-title">
+        <a href="/" title="长江7号的小窝🛖"><img loading="lazy" src="/fixit.min.svg" srcset="/fixit.min.svg, /fixit.min.svg 1.5x, /fixit.min.svg 2x" sizes="auto" data-title="/fixit.min.svg" data-alt="/fixit.min.svg" class="logo" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/><span class="header-title-text">长江7号的小窝🛸</span></a><span class="header-subtitle"></span></div>
+      <div class="menu-toggle" id="menu-toggle-mobile">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <nav>
+      <ul class="menu" id="menu-mobile"><li class="search-wrapper">
+            <div class="search mobile" id="search-mobile">
+              <input type="text" placeholder="搜索文章标题或内容……" id="search-input-mobile">
+              <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                <i class="fa-solid fa-search fa-fw" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                <i class="fa-solid fa-times-circle fa-fw" aria-hidden="true"></i>
+              </a>
+              <span class="search-button search-loading" id="search-loading-mobile">
+                <i class="fa-solid fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+              </span>
+            </div>
+            <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+              取消
+            </a>
+          </li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/posts/"
+                  
+                  
+                >文章</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/categories/"
+                  
+                  
+                >分类</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/tags/"
+                  
+                  
+                >标签</a></li><li class="menu-item menu-system">
+          <span class="menu-system-item theme-switch" title="切换主题"><i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i></span></li>
+      </ul>
+    </nav>
+  </div>
+</header><div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+  </div>
+  <div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+  </div><main class="container"><aside class="toc" id="toc-auto"><h2 class="toc-title">目录&nbsp;<i class="toc-icon fa-solid fa-angle-down fa-fw" aria-hidden="true"></i></h2>
+      <div class="toc-content" id="toc-content-auto"></div></aside>
+
+  <aside class="aside-custom">
+    </aside>
+
+  <article class="page single">
+    <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span title="转载" class="icon-repost"><i class="fa-solid fa-share fa-fw" aria-hidden="true"></i></span><span>Backstage 安装说明</span>
+      </h1></div><div class="post-meta">
+      <div class="post-meta-line"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
+      huangcj</span></span>
+          <span class="post-category">收录于 <a href="/categories/backstage/"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> backstage</a></span></div>
+      <div class="post-meta-line"><span title="发布于 2023-08-03 23:31:47"><i class="fa-regular fa-calendar-alt fa-fw me-1" aria-hidden="true"></i><time datetime="2023-08-03">2023-08-03</time></span>&nbsp;<span title="更新于 2023-08-03 23:31:47"><i class="fa-regular fa-edit fa-fw me-1" aria-hidden="true"></i><time datetime="2023-08-03">2023-08-03</time></span>&nbsp;<span><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>约 1263 字</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>预计阅读 3 分钟</span>&nbsp;</div>
+    </div><div class="details toc" id="toc-static" data-kept="false">
+        <div class="details-summary toc-title">
+          <span>目录</span>
+          <span><i class="details-icon fa-solid fa-angle-right" aria-hidden="true"></i></span>
+        </div>
+        <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#安装">安装</a></li>
+    <li><a href="#运行后台应用">运行后台应用</a></li>
+    <li><a href="#插件安装">插件安装</a>
+      <ul>
+        <li><a href="#kubernetes">kubernetes</a></li>
+        <li><a href="#toolbox">toolbox</a></li>
+      </ul>
+    </li>
+    <li><a href="#编译打包">编译打包</a></li>
+  </ul>
+</nav></div>
+      </div><div class="content" id="content"><h2 id="安装">安装</h2>
+<p>前提条件：</p>
+<ul>
+<li><code>curl</code> or installed <code>wget</code></li>
+<li><code>yarn</code></li>
+<li><code>docker</code></li>
+<li><code>git</code></li>
+</ul>
+<div class="highlight" id="id-1"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">npx @backstage/create-app@latest</span></span></code></pre></div><h2 id="运行后台应用">运行后台应用</h2>
+<p>安装完成后，您可以转到应用程序目录并 启动应用。</p>
+<p>该命令将同时运行前端和后端 在同一窗口中分隔进程（命名和 ）。前端<code>[0]</code> 后端<code>[1]</code></p>
+<div class="highlight" id="id-2"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> my-backstage-app
+</span></span><span class="line"><span class="cl">yarn dev</span></span></code></pre></div><p><img loading="lazy" src="https://huangcj7.oss-cn-shanghai.aliyuncs.com/img/202308032332280.png" srcset="https://huangcj7.oss-cn-shanghai.aliyuncs.com/img/202308032332280.png, https://huangcj7.oss-cn-shanghai.aliyuncs.com/img/202308032332280.png 1.5x, https://huangcj7.oss-cn-shanghai.aliyuncs.com/img/202308032332280.png 2x" sizes="auto" data-title="202308032323953" data-alt="202308032323953" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></p>
+<h2 id="插件安装">插件安装</h2>
+<h3 id="kubernetes">kubernetes</h3>
+<p><strong>添加 Kubernetes 前端插件</strong></p>
+<p>将 Kubernetes 前端插件依赖添加到您的 Backstage 应用。</p>
+<div class="highlight" id="id-3"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># From your Backstage root directory</span>
+</span></span><span class="line"><span class="cl">yarn add --cwd packages/app @backstage/plugin-kubernetes</span></span></code></pre></div><p>安装软件包后，您需要在应用程序中导入插件 通过将“Kubernetes”选项卡添加到相应的实体目录页面。</p>
+<p><code>packages/app/src/components/catalog/EntityPage.tsx</code></p>
+<div class="highlight" id="id-4"><pre tabindex="0" class="chroma"><code class="language-tsx" data-lang="tsx"><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span> <span class="nx">EntityKubernetesContent</span> <span class="p">}</span> <span class="kr">from</span> <span class="s1">&#39;@backstage/plugin-kubernetes&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// You can add the tab to any number of pages, the service page is shown as an
+</span></span></span><span class="line"><span class="cl"><span class="c1">// example here
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">const</span> <span class="nx">serviceEntityPage</span> <span class="o">=</span> <span class="p">(</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">EntityLayout</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span><span class="cm">/* other tabs... */</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">EntityLayout.Route</span> <span class="na">path</span><span class="o">=</span><span class="s">&#34;/kubernetes&#34;</span> <span class="na">title</span><span class="o">=</span><span class="s">&#34;Kubernetes&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">EntityKubernetesContent</span> <span class="na">refreshIntervalMs</span><span class="o">=</span><span class="p">{</span><span class="mi">30000</span><span class="p">}</span> <span class="p">/&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;/</span><span class="nt">EntityLayout.Route</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;/</span><span class="nt">EntityLayout</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">);</span></span></span></code></pre></div><p><strong>添加 Kubernetes 后端插件</strong></p>
+<p>将 Kubernetes 后端插件依赖添加到您的 Backstage 应用。</p>
+<div class="highlight" id="id-5"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># From your Backstage root directory</span>
+</span></span><span class="line"><span class="cl">yarn add --cwd packages/backend @backstage/plugin-kubernetes-backend</span></span></code></pre></div><p>创建一个 <code>packages/backend/src/plugins/kubernetes.ts</code> 文件，然后 添加以下内容：</p>
+<div class="highlight" id="id-6"><pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span> <span class="nx">KubernetesBuilder</span> <span class="p">}</span> <span class="kr">from</span> <span class="s1">&#39;@backstage/plugin-kubernetes-backend&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span> <span class="nx">Router</span> <span class="p">}</span> <span class="kr">from</span> <span class="s1">&#39;express&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span> <span class="nx">PluginEnvironment</span> <span class="p">}</span> <span class="kr">from</span> <span class="s1">&#39;../types&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span> <span class="nx">CatalogClient</span> <span class="p">}</span> <span class="kr">from</span> <span class="s1">&#39;@backstage/catalog-client&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">export</span> <span class="k">default</span> <span class="kr">async</span> <span class="kd">function</span> <span class="nx">createPlugin</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">env</span>: <span class="kt">PluginEnvironment</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span><span class="o">:</span> <span class="nx">Promise</span><span class="p">&lt;</span><span class="nt">Router</span><span class="p">&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kr">const</span> <span class="nx">catalogApi</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">CatalogClient</span><span class="p">({</span> <span class="nx">discoveryApi</span>: <span class="kt">env.discovery</span> <span class="p">});</span>
+</span></span><span class="line"><span class="cl">  <span class="kr">const</span> <span class="p">{</span> <span class="nx">router</span> <span class="p">}</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">KubernetesBuilder</span><span class="p">.</span><span class="nx">createBuilder</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">logger</span>: <span class="kt">env.logger</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">config</span>: <span class="kt">env.config</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">catalogApi</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">permissions</span>: <span class="kt">env.permissions</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}).</span><span class="nx">build</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">r</span><span class="err">·</span><span class="nx">eturn</span> <span class="nx">router</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div><p>将相关代码添加到 现有的后台后端</p>
+<p>修改<code>packages/backend/src/index.ts</code>文件</p>
+<div class="highlight" id="id-7"><pre tabindex="0" class="chroma"><code class="language-typescript" data-lang="typescript"><span class="line"><span class="cl"><span class="c1">// ..
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">import</span> <span class="nx">kubernetes</span> <span class="kr">from</span> <span class="s1">&#39;./plugins/kubernetes&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">async</span> <span class="kd">function</span> <span class="nx">main() {</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// ...
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kr">const</span> <span class="nx">kubernetesEnv</span> <span class="o">=</span> <span class="nx">useHotMemoize</span><span class="p">(</span><span class="nx">module</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="nx">createEnv</span><span class="p">(</span><span class="s1">&#39;kubernetes&#39;</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// ...
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nx">apiRouter</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="s1">&#39;/kubernetes&#39;</span><span class="p">,</span> <span class="k">await</span> <span class="nx">kubernetes</span><span class="p">(</span><span class="nx">kubernetesEnv</span><span class="p">)</span></span></span></code></pre></div><p><strong>配置</strong></p>
+<p>在<code>app-config.yaml</code>中添加相应配置</p>
+<div class="highlight" id="id-8"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">kubernetes</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">serviceLocatorMethod</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;multiTenant&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">clusterLocatorMethods</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;config&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">clusters</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span>- <span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l">http://127.0.0.1:9999</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">minikube</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">authProvider</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;serviceAccount&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">skipTLSVerify</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">skipMetricsLookup</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">serviceAccountToken</span><span class="p">:</span><span class="w"> </span><span class="l">${K8S_MINIKUBE_TOKEN}</span></span></span></code></pre></div><h3 id="toolbox">toolbox</h3>
+<p><strong>添加前端依赖</strong></p>
+<pre tabindex="0"><code># From your Backstage root directory
+yarn add --cwd packages/app @drodil/backstage-plugin-toolbox</code></pre><p>修改<code>packages/app/src/App.tsx</code>文件，定义路由</p>
+<pre tabindex="0"><code>// packages/app/src/App.tsx
+import { ToolboxPage } from &#39;@drodil/backstage-plugin-toolbox&#39;;
+
+// ...
+
+const AppRoutes = () =&gt; (
+  &lt;FlatRoutes&gt;
+    // ...
+    &lt;Route path=&#34;/toolbox&#34; element={&lt;ToolboxPage /&gt;} /&gt;
+    // ...
+  &lt;/FlatRoutes&gt;
+);</code></pre><p>修改<code>packages/app/src/components/Root/Root.tsx</code>文件，定义前端页面展示与图标</p>
+<pre tabindex="0"><code>// packages/app/src/components/Root/Root.tsx
+import BuildIcon from &#39;@material-ui/icons/Build&#39;;
+
+// ...
+
+export const Root = ({ children }: PropsWithChildren&lt;{}&gt;) =&gt; (
+  &lt;SidebarPage&gt;
+    // ...
+    &lt;SidebarItem icon={BuildIcon} to=&#34;toolbox&#34; text=&#34;ToolBox&#34; /&gt;
+    // ...
+  &lt;/SidebarPage&gt;
+);</code></pre><h2 id="编译打包">编译打包</h2>
+<p>主句执行以下命令，进行预编译</p>
+<pre tabindex="0"><code># From your Backstage root directory
+yarn install --frozen-lockfile
+
+# tsc outputs type definitions to dist-types/ in the repo root, which are then consumed by the build
+yarn tsc
+
+# Build the backend, which bundles it all up into the packages/backend/dist folder.
+yarn build:backend</code></pre><p>主机构建完成后，即可构建映像。使用 创建新应用程序时，包括以下内容：</p>
+<p><code>packages/backend/Dockerfile</code>目录下有一份Dockerfile，</p>
+<p>需要修改基础镜像 node:16-bullseye-slim   ==&raquo;  node:16.19.1-bullseye-slim</p>
+<p>需要使用backstage的根目录作为构建上下文执行，以访问需要的文件<code>yarn.lock</code>,<code>package.json</code></p>
+<pre tabindex="0"><code>FROM node:16.19.1-bullseye-slim
+
+# Install sqlite3 dependencies. You can skip this if you don&#39;t use sqlite3 in the image,
+# in which case you should also move better-sqlite3 to &#34;devDependencies&#34; in package.json.
+RUN --mount=type=cache,target=/var/cache/apt,sharing=locked \
+    --mount=type=cache,target=/var/lib/apt,sharing=locked \
+    apt-get update &amp;&amp; \
+    apt-get install -y --no-install-recommends libsqlite3-dev python3 build-essential &amp;&amp; \
+    yarn config set python /usr/bin/python3
+
+# From here on we use the least-privileged `node` user to run the backend.
+USER node
+
+# This should create the app dir as `node`.
+# If it is instead created as `root` then the `tar` command below will fail: `can&#39;t create directory &#39;packages/&#39;: Permission denied`.
+# If this occurs, then ensure BuildKit is enabled (`DOCKER_BUILDKIT=1`) so the app dir is correctly created as `node`.
+WORKDIR /app
+
+# This switches many Node.js dependencies to production mode.
+ENV NODE_ENV production
+
+# Copy repo skeleton first, to avoid unnecessary docker cache invalidation.
+# The skeleton contains the package.json of each package in the monorepo,
+# and along with yarn.lock and the root package.json, that&#39;s enough to run yarn install.
+COPY --chown=node:node yarn.lock package.json packages/backend/dist/skeleton.tar.gz ./
+RUN tar xzf skeleton.tar.gz &amp;&amp; rm skeleton.tar.gz
+
+RUN --mount=type=cache,target=/home/node/.cache/yarn,sharing=locked,uid=1000,gid=1000 \
+    yarn install --frozen-lockfile --production --network-timeout 300000
+
+# Then copy the rest of the backend bundle, along with any other files we might want.
+COPY --chown=node:node packages/backend/dist/bundle.tar.gz app-config*.yaml ./
+RUN tar xzf bundle.tar.gz &amp;&amp; rm bundle.tar.gz
+
+CMD [&#34;node&#34;, &#34;packages/backend&#34;, &#34;--config&#34;, &#34;app-config.yaml&#34;]</code></pre><p><strong>docker打包命令</strong></p>
+<pre tabindex="0"><code>docker image build . -f packages/backend/Dockerfile --tag backstage</code></pre></div><div class="post-footer" id="post-footer">
+  <div class="post-info">
+    <div class="post-info-line">
+      <div class="post-info-mod">
+        <span title="更新于 2023-08-03 23:31:47">更新于 2023-08-03&nbsp;</span>
+      </div></div>
+    <div class="post-info-line">
+      <div class="post-info-md"></div>
+      <div class="post-info-share">
+        <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="http://huangcj7.github.io/posts/first_post/" data-title="Backstage 安装说明" data-hashtags="backstage"><i class="fa-brands fa-twitter fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="http://huangcj7.github.io/posts/first_post/" data-hashtag="backstage"><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="http://huangcj7.github.io/posts/first_post/" data-title="Backstage 安装说明" data-web><i class="fa-brands fa-whatsapp fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="http://huangcj7.github.io/posts/first_post/" data-title="Backstage 安装说明"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="http://huangcj7.github.io/posts/first_post/" data-title="Backstage 安装说明"><i class="fa-brands fa-weibo fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Myspace" data-sharer="myspace" data-url="http://huangcj7.github.io/posts/first_post/" data-title="Backstage 安装说明" data-description=""><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Blogger" data-sharer="blogger" data-url="http://huangcj7.github.io/posts/first_post/" data-title="Backstage 安装说明" data-description=""><i class="fa-brands fa-blogger fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="http://huangcj7.github.io/posts/first_post/" data-title="Backstage 安装说明"><i class="fa-brands fa-evernote fa-fw" aria-hidden="true"></i></a>
+  </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="post-info-more">
+    <section class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href='/tags/backstage/' class="post-tag">backstage</a></section>
+    <section>
+      <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+    </section>
+  </div>
+
+  <div class="post-nav"></div>
+</div>
+</article></main><footer class="footer">
+    <div class="footer-container"><div class="footer-line powered">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.116.1">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.2.18"><img class="fixit-icon" src="/fixit.min.svg" alt="FixIt logo" />&nbsp;FixIt</a>
+        </div><div class="footer-line copyright" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
+            <span itemprop="copyrightYear">2021 - 2023</span><span class="author" itemprop="copyrightHolder">
+              <a href="/"></a></span><span class="license footer-divider"><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div><div class="footer-line statistics"></div><div class="footer-line visitor">
+          <span id="busuanzi_container_site_uv" title='总访客数'><i class="fa-regular fa-user fa-fw" aria-hidden="true"></i>&nbsp;<span id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin fa-fw" aria-hidden="true"></i></span></span><span id="busuanzi_container_site_pv" class="footer-divider" title='总访问量'><i class="fa-regular fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin fa-fw" aria-hidden="true"></i></span></span>
+        </div></div>
+  </footer></div><div class="widgets"><div class="fixed-buttons animate__faster d-none"><div class="fixed-button back-to-top" role="button" aria-label="回到顶部"><i class="fa-solid fa-arrow-up fa-fw" aria-hidden="true"></i><span class="variant-numeric d-none">0%</span>
+        </div></div><div id="mask"></div><noscript>
+    <div class="noscript-warning">FixIt 主题在启用 JavaScript 的情况下效果最佳。</div>
+  </noscript>
+</div><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script src="/lib/autocomplete/autocomplete.min.js" defer></script><script src="/lib/lunr/lunr.min.js" defer></script><script src="/lib/lunr/lunr.stemmer.support.min.js" defer></script><script src="/lib/lunr/lunr.zh.min.js" defer></script><script src="/lib/sharer/sharer.min.js" async defer></script><script src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async defer></script><script>window.config={"code":{"copyTitle":"复制到剪贴板","editLockTitle":"锁定可编辑代码块","editUnLockTitle":"解锁可编辑代码块","editable":true,"maxShownLines":10},"comment":{"enable":false},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验。"},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"enablePWA":true,"search":{"highlightTag":"em","lunrLanguageCode":"zh","lunrSegmentitURL":"/lib/lunr/lunr.segmentit.js","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50}};</script><script src="/js/theme.min.js" defer></script></body>
+</html>
